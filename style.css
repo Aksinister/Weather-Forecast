@@ -1,0 +1,143 @@
+body {
+  background-color: #f2ead3;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+}
+.main-container {
+  background-color: #f9f5f0;
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 1000px;
+  border: 3px solid #6f805e;
+  border-radius: 14px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+  position: flex;
+}
+form {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+.search-input-bar:hover {
+  color: #f9f5f0;
+  background-color: #6f805e;
+  border: 1px solid #6f805e;
+  outline: none;
+  padding: 10px 400px 10px 5px;
+}
+input[type="search"] {
+  transition: all 200ms ease-in-out;
+  color: #344f1f;
+}
+
+.search-input-bar {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #344f1f;
+  background-color: #f2ead3;
+  border: 1px solid #f2ead3;
+  border-radius: 40px;
+  margin: 0px 10px;
+  padding: 10px 400px 10px 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.search-input-button {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #344f1f;
+  text-align: center;
+  background-color: #f2ead3;
+  border: 1px solid #f2ead3;
+  border-radius: 40px;
+  margin: 0px 10px;
+  padding: 10px 50px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-in-out;
+}
+.search-input-button:hover {
+  color: #f9f5f0;
+  background-color: #6f805e;
+  border-color: #6f805e;
+  cursor: pointer;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+.temp-city-and-stats {
+  color: #344f1f;
+  display: flexbox;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 40px 40px;
+}
+.current-temp {
+  font-size: 55px;
+  display: block;
+  margin: 0 auto;
+}
+.city {
+  font-size: 50px;
+  display: block;
+  margin: 0 auto;
+}
+.emoji {
+  font-size: 40px;
+  display: block;
+  margin: 0 auto;
+}
+.stats {
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+}
+.days-row {
+  display: flex;
+  justify-content: space-around;
+}
+.day {
+  color: #344f1f;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 35px;
+}
+.day-text {
+  text-align: center;
+  font-weight: 300;
+  color: #6f805e;
+}
+.forecast-temperatures {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.forecast-temperature {
+  padding: 10px;
+}
+footer {
+  color: #6f805e;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 5px 10px 5px;
+}
+
+a:visited {
+  color: #344f1f;
+}
+
+a {
+  color: #6f805e;
+}

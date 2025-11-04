@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Display SPA</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <form id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-input-bar"
+            id="search-input-bar"
+          />
+          <input type="submit" value="search" class="search-input-button" />
+        </form>
+      </header>
+      <main>
+        <section class="temp-city-and-stats">
+          <span class="current-temp"
+            ><span id="temperature-item">30</span>°C</span
+          >
+          <span class="city">in <span id="city-item">Brisbane</span></span>
+          <span class="emoji" id="emoji">
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+            />
+          </span>
+          <span class="stats">
+            <span id="time">Monday 10:10</span>,
+            <span id="description">clear skies</span> <br />
+            humidity <span id="humidity">30%</span>, wind
+            <span id="wind-speed">10km p/h</span>
+          </span>
+        </section>
+        <div class="days-row" id="forecast"></div>
+      </main>
+
+      <footer>
+        This project has been coded by
+        <a href="https://github.com/Aksinister" target="_blank">Aksinia</a> it
+        is open-sourced on
+        <a
+          href="https://github.com/Aksinister/Temperature-Display-SPA"
+          target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://temperaturedisplayspa.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
