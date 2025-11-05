@@ -126,6 +126,11 @@ section {
 .forecast-temperature {
   padding: 10px;
 }
+.forecast-emoji {
+  width: 70px;
+  display: block;
+  margin: 0 auto;
+}
 footer {
   color: #6f805e;
   display: block;
